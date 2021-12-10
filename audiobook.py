@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+import pdfplumber
 import sys
 from gtts import gTTS
 
@@ -7,10 +8,8 @@ language = 'en'
 
 
 def read_book(book):
-    
-#   with open(book, 'r', encoding='ISO-8859-1') as f:
-#    text = f.read()
-    text = book
+    with open(book, 'r', encoding=ISO8859-1) as f:
+        text = f.read()
     return text
 
 
