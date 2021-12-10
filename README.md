@@ -35,6 +35,14 @@ $ chmod u+x audiobook
 $ chmod u+x req.sh
 
 ```
+If you don't have the packages installed, you can install it with the following command.
+
+```sh
+
+$ ./req.sh
+
+```
+
 ## Running the program.
 
 Once you have all the required packages, you can run the program.
