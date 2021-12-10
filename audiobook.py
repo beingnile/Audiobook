@@ -4,12 +4,12 @@ import sys
 from gtts import gTTS
 
 language = 'en'
-# book = sys.argv[1]
 
 
 def read_book(book):
-    with open(book, 'r', encoding=ISO8859-1) as f:
-        text = f.read()
+    pdf = pdfplumber.open(book)
+    for page in pdf.pages:
+        text = page.extract_text()
     return text
 
 
