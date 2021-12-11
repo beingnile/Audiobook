@@ -58,6 +58,9 @@ $ ./audiobook book.pdf
 
 ```
 
+> For you to run the program, you have to be connected to the internet. gTTS will not work without internet. The conversion takes time so you'll wait it out till you get a 'Your book is ready' message.
+
+> Enjoy!!!
 ## Author.
 
 This Project was made and is maintained by [Nile](https://github.com/beingnile)
